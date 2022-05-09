@@ -1,0 +1,49 @@
+arena:
+  configurations:
+    hide-Players: true
+    arena:
+      item_tag:
+        displayname: '&cYou are the Tag'
+        lore:
+        - ''
+        - ''
+        - ''
+        item: TNT
+  messages:
+    not-playing: '&cYou are not playing any game!'
+    invalid-arena: '&cThe selected arena does not exist.'
+    already-playing: '&cYou are already playing an arena!'
+    full: '&cAll servers are full! Please wait!'
+    join: '&b<player> &ehas joined in the game! &a(<num>/<max>)'
+    quit: '&b<player> &ehas left the game!'
+    starting: '&eGame is going to start in &b<seconds>&es!'
+    no-permission: '&c&lERROR (!): &fYou have no permissions to do this.'
+  sounds:
+    starting:
+      start: 'ANVIL_PLACE'
+      finishing_countdown: 'NOTE_PLING'
+      tagger_die: 'EXPLOSION'
+  scoreboard:
+    waiting:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    starting:
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    ingame:
+    - ''
+    - ''
+    - ''
+    - ''
+    restarting:
+    - ''
+    - ''
+    - ''
+    - ''
+    
